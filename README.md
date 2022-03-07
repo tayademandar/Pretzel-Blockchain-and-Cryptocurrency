@@ -1,6 +1,6 @@
 # Pretzel-Blockchain-and-Cryptocurrency
 
-Pretzel is a fully Decentralised Blockchain which runs on multiple nodes. It has the ability to mine a block, get rewarded for a  mining a block and add transaction to a block like sending cryptocurrency to a person.
+Pretzel is a fully Decentralised Blockchain which runs on multiple nodes. It has the ability to mine a block, get rewarded for a  mining a block and add transaction to a block like sending cryptocurrency to a person. This Blockchain uses proof of work.
 
 We can send `GET` requests to the  nodes of the blockchhain to:
 - retrieve information about the chain `(/get_chain)`
@@ -10,7 +10,7 @@ We can send `GET` requests to the  nodes of the blockchhain to:
 
 ALso `POST` requests can be sent to the blochckain to:
 - add transaction to the block `(/add_transaction) `
-- connect nodes with each other `('connect_node)`
+- connect nodes with each other `(/connect_node)`
 
 **Use this syntax in Postman to perform the `GET` and `POST` request on the blockchain** : 
 ```
